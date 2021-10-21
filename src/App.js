@@ -8,9 +8,11 @@ export default function App() {
   return (
     <div className="App">
       <Topbar />
-      <Trending />
-      <Filterbox />
-      <BlogRender />
+      <main>
+        <Trending />
+        <Filterbox />
+        <BlogRender />
+      </main>
     </div>
   );
 }
